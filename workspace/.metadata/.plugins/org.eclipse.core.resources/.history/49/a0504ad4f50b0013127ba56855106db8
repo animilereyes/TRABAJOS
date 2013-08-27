@@ -1,0 +1,20 @@
+package entrada;
+
+import java.util.Scanner ;
+
+public class Entrada {
+	
+		
+		public static void main (String a []) {
+			Scanner X= new Scanner (System.in);
+			int r = X.nextInt();
+			Scanner y= new Scanner (System.in);
+			int m = y.nextInt();
+			System.out.println("El valor dijitado es " + r);
+			System.out.println("El valor dijitado es" + m );
+			System.out.println(r+m);
+			
+			
+		}
+		
+}
